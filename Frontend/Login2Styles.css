@@ -1,0 +1,128 @@
+.head {
+    font-weight: 500;
+    text-align: center;
+    color: darkblue;
+}
+
+.label2 {
+    font-size: 20px;
+    color: darkslategrey;
+    margin-left: -100px,
+}
+
+.para {
+    position: relative;
+}
+
+.bg {
+    height: 600px;
+    background-color: lightblue;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.a {
+    text-align: center;
+}
+
+
+
+.login-form-wrap {
+    background-color: #fff;
+    width: 35%;
+    margin: 30px auto;
+
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    padding: 0 60px;
+}
+
+.password2,
+.email2 {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+}
+
+.login2 {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+
+}
+
+.password2,
+.email2 {
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+}
+
+.password2 :focus,
+.email2:focus {
+    border-color: #3ca9e2;
+}
+
+.password2:focus:invalid,
+.email2:focus:invalid {
+    color: #cc1e2b;
+    border-color: #cc1e2b;
+}
+
+
+
+
+.login2 {
+    border: none;
+    display: block;
+    background-color: #3ca9e2;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login2:hover {
+    background-color: #329dd5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.create-account-wrap {
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+}

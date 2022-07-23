@@ -1,0 +1,23 @@
+.navbarDashboard2 {
+    background-color: lightseagreen;
+    height: 70px;
+    color: black;
+
+}
+
+.navbarDashboard2 ul {
+    overflow: auto;
+}
+
+.navbarDashboard2 li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+    font-size: 18px;
+    line-height: 44px;
+
+}
+
+.navbarDashboard2 li a {
+    padding: 3px 3px;
+}

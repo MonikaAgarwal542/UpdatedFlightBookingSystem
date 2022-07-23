@@ -1,0 +1,14 @@
+.pay-form {
+    display: flex;
+    justify-content: center;
+}
+
+.pay-form button {
+    margin-top: 22px;
+    padding: 5px 16px;
+}
+
+.p-btn {
+    display: flex;
+    justify-content: center;
+}
